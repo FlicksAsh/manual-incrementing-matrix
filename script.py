@@ -11,9 +11,12 @@ def manual_incrementing_matrix(d):
     x += 1 
     rows.append(row)
     print(row)
+    
+  return rows 
+
 
 
 
     
   
-manual_incrementing_matrix(3)
+print(manual_incrementing_matrix(3))
